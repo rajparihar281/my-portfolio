@@ -1,0 +1,67 @@
+/* app/components/About.module.css */
+
+.aboutSection {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa; /* Same as the hero for consistency */
+}
+
+/* This is our flex container */
+.aboutContainer {
+  display: flex;
+  gap: 3rem; /* Space between the two columns */
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start; /* Aligns items to the top */
+}
+
+/* The left column for text */
+.textContainer {
+  flex: 2; /* Takes up 2/3 of the space */
+}
+
+.textContainer h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.textContainer p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* The right column for skills */
+.skillsContainer {
+  flex: 1; /* Takes up 1/3 of the space */
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.skillsContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.skillsList {
+  list-style: none; /* Removes default bullet points */
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  gap: 0.75rem;
+}
+
+.skillsList li {
+  background-color: #e9ecef;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column; /* Stacks the columns vertically */
+  }
+}
