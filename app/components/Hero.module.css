@@ -1,0 +1,45 @@
+/* app/components/Hero.module.css */
+
+.hero {
+  display: flex; /* Enables flexbox for easy centering */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  text-align: center;
+  min-height: 70vh; /* Makes the hero section take up 70% of the viewport height */
+  padding: 2rem;
+  background-color: #f8f9fa; /* A light grey background */
+}
+
+.heroContent {
+  max-width: 800px;
+}
+
+.title {
+  font-size: 3.5rem; /* Large font for the name */
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #495057;
+  font-weight: 300;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0070f3; /* The same blue from our header hover */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease;
+}
+
+.ctaButton:hover {
+  background-color: #005bb5;
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
