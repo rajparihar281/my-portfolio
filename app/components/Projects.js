@@ -9,21 +9,21 @@ const projectsData = [
     title: "Project One",
     description:
       "A brief description of the first project, highlighting the technologies used and its purpose.",
-    link: "#", // The '#' is a placeholder link
+    link: "https://github.com/rajparihar281/", // The '#' is a placeholder link
   },
   {
     id: 2,
     title: "Project Two",
     description:
       "This project solves a real-world problem by doing X, Y, and Z. It was built with Next.js and React.",
-    link: "#",
+    link: "https://github.com/rajparihar281/",
   },
   {
     id: 3,
     title: "Project Three",
     description:
       "A third project to show the breadth of my skills. This one focused on a clean user interface.",
-    link: "#",
+    link: "https://github.com/rajparihar281/",
   },
 ];
 
